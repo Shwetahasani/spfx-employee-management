@@ -1,0 +1,12 @@
+node_modules
+lib
+lib-amd
+lib-commonjs
+lib-esm
+temp
+dist
+release
+sharepoint/solution/debug
+sharepoint/solution/*.sppkg
+*.scss.ts
+.heft
