@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c4a7e2b9-1f3d-4b6a-8e5c-7d9f0a2b4c61",
+  "alias": "EmployeeManagementWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Advanced" },
+      "title": { "default": "Employee Management" },
+      "description": { "default": "Add, edit, search and report on employees stored in a SharePoint list." },
+      "officeFabricIconFontName": "People",
+      "properties": {
+        "title": "Employee Management",
+        "listName": "Employees",
+        "pageSize": 10
+      }
+    }
+  ]
+}
